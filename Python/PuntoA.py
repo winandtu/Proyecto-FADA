@@ -1,5 +1,5 @@
 """
-Nombres de los archivos de lectura y escritura, modifique como considere.
+Nombres de los archivos de lectura y escritura, modifique como considere.hhhhh
  """
 nombreLectura = "inA"
 nombreEscritura = "outA"
