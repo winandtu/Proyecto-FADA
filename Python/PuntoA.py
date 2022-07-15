@@ -1,5 +1,5 @@
 """
-Nombres de los archivos de lectura y escritura, modifique como considere.
+Nombres de los archivos de lectura y escritura, modifique como considere.hhhhh
  """
 nombreLectura = "inA"
 nombreEscritura = "outA"
@@ -88,7 +88,9 @@ def solve(n, procedimientos):
     Implementar el algoritmo y devolver un objeto de tipo Respuesta, el cual servirá
     para imprimir la solución al problema como se requiere en el enunciado.
     """
+    
 
+    
     return Respuesta(0, Hora(0,0), [])
 
 
