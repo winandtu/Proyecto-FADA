@@ -28,7 +28,7 @@ public class MainDinamica {
 		System.out.println("");
 
 		try {
-			archivo = new File("src/salaDeOperaciones/Prueba5.txt"); // Se debe revisar bien la ruta al ejecutarse ya que es la ruta de mi computador usando el ide eclipse
+			archivo = new File("src/salaDeOperaciones/Prueba10.txt"); // Se debe revisar bien la ruta al ejecutarse ya que es la ruta de mi computador usando el ide eclipse
 			fr = new FileReader(archivo);
 			br = new BufferedReader(fr);
 
@@ -110,8 +110,7 @@ public class MainDinamica {
 		System.out.println("");
 		System.out.println("");
 
-		System.out.println("SALIDA:");
-		System.out.println("Guardada en SolucionDinamica.txt");
+
 		int procedimientosARealizarEnLaSala = calcularNumeroDeProcedimientos(solX);
 		System.out.println(procedimientosARealizarEnLaSala);
 		int tiempoTotalDeUsoDeLaSala = cost[0][numeroDeProcedimientos - 1];

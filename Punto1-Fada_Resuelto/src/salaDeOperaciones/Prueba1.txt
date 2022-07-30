@@ -1,9 +1,9 @@
-5
-Proc5 22 24
-Proc4 12 24
-Proc3 11 22
-Proc2 5 12
-Proc1 0 8
-
+6
+Proc1 0 5
+Proc2 1 5
+Proc3 4 9
+Proc4 10 12
+Proc5 13 15
+Proc6 13 20
 
 

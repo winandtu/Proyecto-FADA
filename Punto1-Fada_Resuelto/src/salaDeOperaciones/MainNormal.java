@@ -41,7 +41,7 @@ public class MainNormal {
 		BufferedReader br = null;
 
 		try {
-			archivo = new File("src/salaDeOperaciones/Prueba5.txt"); // Se debe revisar bien la ruta al ejecutarse ya que es la ruta de mi computador usando el ide eclipse
+			archivo = new File("src/salaDeOperaciones/Prueba10.txt"); // Se debe revisar bien la ruta al ejecutarse ya que es la ruta de mi computador usando el ide eclipse
 			fr = new FileReader(archivo);
 			br = new BufferedReader(fr);
 
