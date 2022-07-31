@@ -7,16 +7,15 @@
 #include <fstream>
 
 
-typedef unsigned long long ull;
 using namespace std;
 int M, K;
 unsigned t0, t1;
-ull pages[501];
+long pages[501];
 bool isFinalBook[501];
 
 bool librosCompatibles(int NumeroPaginas)
 {
-    ull paginasActuales = 0, numeroUsado = 0;
+    long paginasActuales = 0, numeroUsado = 0;
     for (int libro = M - 1; libro >= 0; --libro)
     {
         if (pages[libro] + paginasActuales > NumeroPaginas)
@@ -35,13 +34,13 @@ bool librosCompatibles(int NumeroPaginas)
     return true;
 }
 
-ull paginasMinimas(ull sum, ull largest)
+long paginasMinimas(long sum, long largest)
 {
-    ull min = largest, max = sum;
+    long min = largest, max = sum;
     
     while (min != max)
     {
-        ull middle = min + (max - min) / 2;
+        long middle = min + (max - min) / 2;
         if (librosCompatibles(middle))
             max = middle;
         
@@ -52,9 +51,9 @@ ull paginasMinimas(ull sum, ull largest)
     return min;
 }
 
-void librosNoCompatibles(ull maximumPages)
+void librosNoCompatibles(long maximumPages)
 {
-    ull pagesForCurrent = 0, currentScribe = K - 1;
+    long pagesForCurrent = 0, currentScribe = K - 1;
     
     
     for (int book = M - 1; book >= 0; --book)
@@ -81,7 +80,7 @@ int main()
 	ifstream fe("Prueba5.txt");
 	fe >> M;
 	fe >> K;	
-        ull sum = 0, largest = 0;
+        long sum = 0, largest = 0;
         for (int i = 0; i < M; ++i)
         {
             isFinalBook[i] = false;          
@@ -91,7 +90,7 @@ int main()
             largest = max(largest, pages[i]);
         }
         
-        ull maxPages = paginasMinimas(sum, largest);
+        long maxPages = paginasMinimas(sum, largest);
         cout << maxPages << endl;
         file << maxPages;
         file << "\n";
