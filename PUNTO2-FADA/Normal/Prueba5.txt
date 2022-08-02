@@ -1,11 +1,11 @@
 9 9
 "libro1" 100 
-"libro2" 200 
-"libro3" 300 
-"libro4" 400 
-"libro5" 500 
-"libro6" 600 
-"libro7" 700 
-"libro8" 800 
-"libro9" 900 
+"libro1" 200 
+"libro1" 300 
+"libro1" 400 
+"libro1" 500 
+"libro1" 600 
+"libro1" 700 
+"libro1" 800 
+"libro1" 900 
        
