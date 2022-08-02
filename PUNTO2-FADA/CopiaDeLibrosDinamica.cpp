@@ -30,7 +30,7 @@ int rec(int position , int sub ) {
 int main() {
 	ofstream file;
     file.open("SalidaDinamica.txt");
-	ifstream fe("Prueba5.txt");
+	ifstream fe("Prueba2.txt");
 	fe >> n;
 	fe >> m;
 	for(int i = 0 ; i < n; i++) {
