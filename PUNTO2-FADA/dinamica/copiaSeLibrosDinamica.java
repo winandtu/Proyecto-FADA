@@ -9,11 +9,11 @@ import javax.xml.crypto.Data;
 
 public class copiaSeLibrosDinamica
 {
-	public static int[][] dp = new int[1000][1000];
-	public static int[] pages = new int[1000];
+	public static int[][] dp = new int[1000][1000];//movimientos entre posiciones
+	public static int[] pages = new int[1000];// paginas de cada libro
 	public static int n;//escritores
 	public static int m;//libros
-	public static int MAX = 1000000000;
+	public static int MAX;
 
 	public static int rec(int position, int sub)
 	{
